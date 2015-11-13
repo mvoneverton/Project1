@@ -1,0 +1,36 @@
+body {
+  background-image: url("confectionary.png");
+}
+
+header {
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+header > a {
+  color: black;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+}
+
+.products a {
+  display: block;
+  width: 100px;
+}
+
+footer {
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
