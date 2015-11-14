@@ -20,17 +20,17 @@ if ($_GET['id']) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <meta charset="UTF-8">
   <title>Document</title>
 </head>
 <body>
 
-  <?php include "header.php"; ?>
+  <?php include "./header.php"; ?>
 
   <?php echo $output; ?>
 
-  <?php include "footer.php"; ?>
+  <?php include "./footer.php"; ?>
 
 </body>
 </html>
